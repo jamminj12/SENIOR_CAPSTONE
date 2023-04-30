@@ -1,5 +1,3 @@
-
-```cpp
 #include "HX711.h"  // HX711 library for Arduino: https://github.com/bogde/HX711
 
 // This script was written newly for the 22-23 capstone team to interface with the ANYLOAD Load Cells.
@@ -79,4 +77,3 @@ void loop() {
     tareFlag = false;
   }
 }
-```
