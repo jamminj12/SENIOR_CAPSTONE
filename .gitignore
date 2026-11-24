@@ -1,0 +1,17 @@
+# Never commit human-subject data or raw recordings
+*.csv
+*.xls
+*.xlsx
+*.wav
+*.avi
+*.mp4
+*.mov
+*.mat
+*.jpg
+*.jpeg
+# MATLAB live scripts embed plotted outputs; export to .m instead
+*.mlx
+
+# ...but keep documentation images (screenshots and hardware photos with no people or subject data)
+!docs/images/*.jpg
+!docs/images/*.png
