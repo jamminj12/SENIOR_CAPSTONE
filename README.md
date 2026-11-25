@@ -2,7 +2,7 @@
 
 Code from the Grove City College **Acoustic Biomechanics** engineering capstone. The project's goal is to provide and validate clinically useful gait parameters from acoustic measurements, for example quantifying a gait impairment or an injury recovery from the sound of someone's footsteps. It is sponsored by Highmark Health Data Analytics and spans the Mechanical Engineering, Electrical Engineering, Exercise Science and Computer Science departments.
 
-This repo contains the software for the **mediolateral force measurement system** the 2022-2023 team designed, built and installed on a treadmill, plus a folder of video-analysis scripts written by a teammate.
+This repo contains the software for the **mediolateral force measurement system** the 2022-2023 team designed, built and installed on a treadmill.
 
 ## My role
 
@@ -18,7 +18,6 @@ arduino/Treadmill_Load_Cells/   Arduino sketch: reads 4 load cells through HX711
 matlab/data_acquisition/        ML_Force_GUI.m: MATLAB GUI that tares, live-plots and logs each trial to CSV (walkthrough with screenshots)
 matlab/data_analysis/           ML_Force_Analysis.m and related scripts: per-step peak forces, left vs right, F-Scan stance cuts, group charts
 acoustic_fscan_analysis/        Footstep-acoustics + F-Scan pipeline: stance segmentation, envelope cut-outs, PCA (see its README)
-video_data_scripts/             Foot-tracking scripts for the high-speed video (written by Gina Kim, see its README)
 docs/images/                    Screenshots and photos used in the READMEs
 ```
 
@@ -103,4 +102,4 @@ Human-subject testing for this project was done under IRB approval. **No subject
 
 2022-2023 capstone team: Matthew Grazulis, Jesse Greyshock, Gina Kim, Rachael Wallace. Project advisor: Geo. A. Richards, PhD. Also thanks to Luke Johnson (machine shop advisor) and Joshua Parris (sensor data acquisition). Sponsor: Highmark Health.
 
-The Arduino sketch uses the HX711 library by bogde. The video scripts in `video_data_scripts/` are Gina Kim's work. The acoustic/F-Scan scripts descend from code by Aaron Hammer-Huber that Dr. Richards revised and I extended; details are in that folder's README.
+The Arduino sketch uses the HX711 library by bogde. The acoustic/F-Scan scripts descend from code by Aaron Hammer-Huber that Dr. Richards revised and I extended; details are in that folder's README.
