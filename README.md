@@ -98,8 +98,6 @@ See [`matlab/data_acquisition`](matlab/data_acquisition) for the full walkthroug
 
 Human-subject testing for this project was done under IRB approval. **No subject data, recordings or paperwork are in this repo**, and the `.gitignore` blocks common data file types (CSV, XLSX, WAV, AVI, MAT, and so on). Subject codes such as `S23AA` are coded identifiers. The file names and body weight in the scripts are placeholders. The images in `docs/images/` are screenshots of software, photos of hardware and a lab diagram; one screenshot (the GUI live plot) shows about 15 seconds of raw load-cell readings with no subject identifier.
 
-## Team and credits
-
-2022-2023 capstone team: Matthew Grazulis, Jesse Greyshock, Gina Kim, Rachael Wallace. Project advisor: Geo. A. Richards, PhD. Also thanks to Luke Johnson (machine shop advisor) and Joshua Parris (sensor data acquisition). Sponsor: Highmark Health.
+## Credits
 
 The Arduino sketch uses the HX711 library by bogde. The acoustic/F-Scan scripts descend from code by Aaron Hammer-Huber that Dr. Richards revised and I extended; details are in that folder's README.
